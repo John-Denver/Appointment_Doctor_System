@@ -19,7 +19,7 @@
 </style>
 </head>
 <body>
-    <?php
+<?php
 
 
     session_start();
@@ -44,7 +44,8 @@
     $stmt->bind_param("s",$useremail);
     $stmt->execute();
     $result = $stmt->get_result();
-    $userfetch=$userrow->fetch_assoc();
+    $userfetch=$result->fetch_assoc();
+    // $userfetch = $userrow->fetch_assoc();
     $userid= $userfetch["pid"];
     $username=$userfetch["pname"];
 
@@ -54,7 +55,7 @@
     
 
 
-    date_default_timezone_set('Asia/Kolkata');
+    date_default_timezone_set('Africa/Nairobi');
 
     $today = date('Y-m-d');
 

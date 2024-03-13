@@ -23,7 +23,7 @@
     $_SESSION["usertype"]="";
     
     // Set the new timezone
-    date_default_timezone_set('Asia/Kolkata');
+    date_default_timezone_set('Africa/Nairobi');
     $date = date('Y-m-d');
 
     $_SESSION["date"]=$date;
@@ -95,7 +95,7 @@
             }
             
         }else{
-            $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">We cant found any acount for this email.</label>';
+            $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">We did not find any account for this email.</label>';
         }
 
 

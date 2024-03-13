@@ -50,7 +50,7 @@
     //echo $userid;
     //echo $username;
     
-    date_default_timezone_set('Asia/Kolkata');
+    date_default_timezone_set('Africa/Nairobi');
 
     $today = date('Y-m-d');
 

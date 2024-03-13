@@ -128,7 +128,7 @@
                                 </p>
                                 <p class="heading-sub12" style="padding: 0;margin: 0;">
                                     <?php 
-                                date_default_timezone_set('Asia/Kolkata');
+                                date_default_timezone_set('Africa/Nairobi');
         
                                 $today = date('Y-m-d');
                                 echo $today;
@@ -158,7 +158,7 @@
                         <td >
                             <h3>Welcome!</h3>
                             <h1><?php echo $username  ?>.</h1>
-                            <p>Haven't any idea about doctors? no problem let's jump to 
+                            <p>Have no idea about doctors? no problem let's jump to 
                                 <a href="doctors.php" class="non-style-link"><b>"All Doctors"</b></a> section or 
                                 <a href="schedule.php" class="non-style-link"><b>"Sessions"</b> </a><br>
                                 Track your past and future appointments history.<br>Also find out the expected arrival time of your doctor or medical consultant.<br><br>
@@ -229,7 +229,7 @@
                                                                 <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/doctors-hover.svg');"></div>
                                                     </div>
                                                 </td>
-                                                <td style="width: 25%;">
+                                                <!-- <td style="width: 25%;">
                                                     <div  class="dashboard-items"  style="padding:20px;margin:auto;width:95%;display: flex;">
                                                         <div>
                                                                 <div class="h1-dashboard">
@@ -241,7 +241,7 @@
                                                         </div>
                                                                 <div class="btn-icon-back dashboard-icons" style="background-image: url('../img/icons/patients-hover.svg');"></div>
                                                     </div>
-                                                </td>
+                                                </td> -->
                                                 </tr>
                                                 <tr>
                                                 <td style="width: 25%;">

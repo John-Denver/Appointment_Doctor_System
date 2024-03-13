@@ -25,7 +25,7 @@ $_SESSION["user"]="";
 $_SESSION["usertype"]="";
 
 // Set the new timezone
-date_default_timezone_set('Asia/Kolkata');
+date_default_timezone_set('Africa/Nairobi');
 $date = date('Y-m-d');
 
 $_SESSION["date"]=$date;
@@ -73,7 +73,7 @@ if($_POST){
         }
         
     }else{
-        $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">Password Conformation Error! Reconform Password</label>';
+        $error='<label for="promter" class="form-label" style="color:rgb(255, 62, 62);text-align:center;">Password Confirmation Error! Reconform Password</label>';
     }
 
 
@@ -130,7 +130,7 @@ if($_POST){
             </tr>
             <tr>
                 <td class="label-td" colspan="2">
-                    <label for="cpassword" class="form-label">Conform Password: </label>
+                    <label for="cpassword" class="form-label">Confirm Password: </label>
                 </td>
             </tr>
             <tr>
@@ -159,7 +159,7 @@ if($_POST){
             <tr>
                 <td colspan="2">
                     <br>
-                    <label for="" class="sub-text" style="font-weight: 280;">Already have an account&#63; </label>
+                    <label for="" class="sub-text" style="font-weight: 280;">Already have an account?&#63; </label>
                     <a href="login.php" class="hover-link1 non-style-link">Login</a>
                     <br><br><br>
                 </td>
