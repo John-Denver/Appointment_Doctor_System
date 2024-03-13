@@ -2,7 +2,7 @@
 :root {
   --primarycolor: #fe6e00;
   --primarycolorhover: #fc59239b;
-  --btnice:#D8EBFA;
+  --btnice:#fae7d8d7;
   --btnnicetext:#e27611;
 }
 
@@ -81,7 +81,7 @@ body{
 }
 
 .input-text:focus{
-    border: 1px solid rgb(216, 10, 195);
+    border: 1px solid rgba(242, 203, 11, 0.881);
     transition: 0.2s;
 }
 
@@ -135,7 +135,7 @@ body{
     background-color: var(--primarycolor) ;
     /*border: 1px solid rgba(57,108,240,0.1) ;*/
     color: #fff ;
-    box-shadow: 0 3px 5px 0 rgba(57,108,240,0.3);
+    box-shadow: 0 3px 5px 0 rgba(240, 130, 57, 0.3);
 }
 
 
@@ -305,8 +305,8 @@ input[type=search]:focus {
 
 
 .btn-primary-gray:hover{
-  background-color: #981c9ca9;
-  box-shadow: 0 3px 5px 0 rgba(95, 95, 97, 0.3);
+  background-color: #9c711ca9;
+  box-shadow: 0 3px 5px 0 rgba(97, 96, 95, 0.3);
 }
 
 
@@ -351,7 +351,7 @@ input[type=search]:focus {
 
 .non-style-link-menu:link, .non-style-link-menu:visited,  .non-style-link-menu:active{
   text-decoration: none;
-  color: #3b3b3b;
+  color: #c28c87;
 }
 .non-style-link-menu:hover{
   text-decoration: none;
@@ -367,30 +367,38 @@ input[type=search]:focus {
 
 .menu-icon-dashbord{
   background-image: url('../img/icons/dashboard.svg');
+  color: var(--primarycolor);
 }
 
 
 .menu-icon-doctor{
   background-image: url('../img/icons/doctors.svg');
+  color: var(--primarycolor);
 }
 .menu-icon-schedule{
   background-image: url('../img/icons/schedule.svg');
+  color: var(--primarycolor);
 }
 .menu-icon-appoinment{
   background-image: url('../img/icons/book.svg');
+  color: var(--primarycolor);
 }
 .menu-icon-patient{
   background-image: url('../img/icons/patients.svg');
+  color: var(--primarycolor);
 }
 .menu-icon-settings{
   background-image: url('../img/icons/settings.svg');
+  color: var(--primarycolor);
 }
 
 .menu-icon-session{
   background-image: url('../img/icons/session.svg');
+  color: var(--primarycolor);
 }
 .menu-icon-home{
   background-image: url('../img/icons/home.svg');
+  color: var(--primarycolor);
 }
 
 
