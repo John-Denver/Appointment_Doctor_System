@@ -21,8 +21,6 @@
 <body>
     <?php
 
-    //learn from w3schools.com
-
     session_start();
 
     if(isset($_SESSION["user"])){
@@ -60,8 +58,6 @@
         //print_r($_POST);
         
 
-
-        
         if(!empty($_POST["sheduledate"])){
             $sheduledate=$_POST["sheduledate"];
             $sqlmain.=" and schedule.scheduledate='$sheduledate' ";

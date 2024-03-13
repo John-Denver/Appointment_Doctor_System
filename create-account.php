@@ -18,8 +18,6 @@
 <body>
 <?php
 
-//learn from w3schools.com
-//Unset all the server side variables
 
 session_start();
 
@@ -35,9 +33,6 @@ $_SESSION["date"]=$date;
 
 //import database
 include("connection.php");
-
-
-
 
 
 if($_POST){
